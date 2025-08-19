@@ -2,7 +2,7 @@
 Public Repository for showing problems of turborepo pruning a monorepo with bun lockfiles.
 
 # Issue
-Included are already 2 output folders that were pruned from the codebase, without any changes inbetween. If the two bun lockfiles from out/json/bun.lock and out2/json/bun.lock get both put into a diffchecker it shows that the optionalPeers just get reordered in the file.
+Included are already 2 output folders that were pruned from the codebase, without any changes inbetween. If the two bun lockfiles from out/json/bun.lock and out2/json/bun.lock get both put into a diffchecker it shows that the optionalPeers just get reordered in the file. This causes caching misses while building dockerfiles.
 
 [Here](https://www.diffchecker.com/hhHUdnX0/) is a Diffchecker example of the already included out folders
 
