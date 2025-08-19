@@ -4,7 +4,7 @@ Public Repository for showing problems of turborepo pruning a monorepo with bun 
 # Issue
 Included are already 2 output folders that were pruned from the codebase, without any changes inbetween. If the two bun lockfiles from out/json/bun.lock and out2/json/bun.lock get both put into a diffchecker it shows that the optionalPeers just get reordered in the file.
 
-(Here)[https://www.diffchecker.com/hhHUdnX0/] is a Diffchecker example
+[Here](https://www.diffchecker.com/hhHUdnX0/) is a Diffchecker example
 
 # Reproducibility
 I added 2 scripts into the root package.json: prune and prune-second.
